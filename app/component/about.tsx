@@ -7,7 +7,7 @@ function About() {
   return (
     <div id="About">
       <section className="bg-[#e9dcd3]">
-        <div className="container mx-auto flex px-5 py-60 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-52 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
               className="object-cover object-center rounded mx-auto  w-[350px] h-[350px]"
@@ -21,7 +21,7 @@ function About() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-yellow-950">
               About Me
             </h1>
-            <p className="mb-4 leading-relaxed line-clamp-20 text-xl  font-medium text-yellow-950">
+            <p className="mb-4 leading-relaxed line-clamp-20 text-lg  font-medium text-yellow-950">
   As a passionate student at GIAIC and a freelance web developer, I specialize in creating modern, responsive, and user-focused web applications using HTML, CSS,  TypeScript, Next.js and python. I’ve successfully delivered impactful projects like dynamic student management systems, real-time currency converters, and interactive quizzes—all designed for performance and usability.
 
   Currently, I’m expanding my expertise into cutting-edge technologies, including Python and AI development. I’m actively learning Agentic AI through the Dapr Agentic Cloud Ascent (DACA) Design Pattern and exploring agent-native cloud platforms such as OpenAI Agents SDK, Memory, MCP, A2A, Knowledge Graphs, Dapr, Rancher Desktop, and Kubernetes.
