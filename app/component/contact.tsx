@@ -32,26 +32,26 @@ function Contact() {
                   EMAIL
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
-                  onlinework@email.com
+                  onlinework42101@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-yellow-950 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">0234-953-0921</p>
+                <p className="leading-relaxed">0329-2018-213</p>
               </div>
             </div>
           </div>
           <div className="lg:w-1/3 md:w-1/2 bg-[#faede4] flex flex-col  md:ml-auto w-full md:py-4  mt-8  md:mt-auto ">
-            <h2 className="text-yellow-950 text-3xl mb-10 font-medium title-font ml-3  mt-10">
+            <h2 className="text-yellow-950 text-3xl mb-10 font-extrabold title-font ml-3  mt-10">
               Contact
             </h2>
-            <p className="leading-relaxed mb-10 text-yellow-950 ml-3 ">
+            <p className="leading-relaxed mb-10 font-medium text-yellow-950 ml-3 ">
               Feel Free To Connect Us
             </p>
             <div className="relative mb-10">
               <label
                 htmlFor="name"
-                className="leading-7 text-sm text-yellow-950 ml-3"
+                className="leading-7 text-lg text-yellow-950 ml-3"
               >
                 Name
               </label>
@@ -65,7 +65,7 @@ function Contact() {
             <div className="relative mb-10">
               <label
                 htmlFor="email"
-                className="leading-7 text-sm text-yellow-950 ml-3"
+                className="leading-7 text-lg text-yellow-950 ml-3"
               >
                 Email
               </label>
@@ -79,7 +79,7 @@ function Contact() {
             <div className="relative mb-10">
               <label
                 htmlFor="message"
-                className="leading-7 text-sm text-yellow-950 ml-3"
+                className="leading-7 text-lg text-yellow-950 ml-3"
               >
                 Message
               </label>
@@ -90,7 +90,7 @@ function Contact() {
                 defaultValue={""}
               />
             </div>
-            <button className="text-white  bg-yellow-950 w-40 ml-3 h-10 border-0 py-2 px-6 focus:outline-none hover:bg-[#6b5d53] rounded text-sm mb-10">
+            <button className="text-white  bg-yellow-950 w-40 ml-3 h-18 border-0 py-2 px-6 focus:outline-none hover:bg-[#6b5d53] rounded text-lg mb-10">
               Send Message
             </button>
           </div>

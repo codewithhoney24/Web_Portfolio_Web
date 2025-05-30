@@ -3,19 +3,17 @@ import React from 'react'
 import Image from 'next/image'
 import { AiOutlineCloudDownload } from 'react-icons/ai';
 
-
-
 function Navbar() {
   return (
     <div className='z-50 sticky top-0'>
-    <header className="text-yellow-950 h-16 body-font bg-[#d4baa7] ">
+    <header className="text-yellow-950 h-18 body-font bg-[#d4baa7] ">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-extrabold items-center text-yellow-950   ">
-    <Image src="/assests/picture/pi100.png" alt="My Portfolio" width={40} height={40} className='-mt-2' />
+    <Image src="/assests/picture/pi100.png" alt="My Portfolio" width={40} height={40} className='-mt-1' />
 
-      <span className="ml-2  -mt-2 text-2xl hover:text-yellow-700">My Portfolio</span>
+      <span className="ml-2  -mt-2 text-3xl hover:text-yellow-700">My Portfolio</span>
     </a>
-    <nav className="md:ml-auto md:mr-auto flex flex-wrap font-extrabold items-center text-base justify-center">
+    <nav className="md:ml-auto md:mr-auto flex flex-wrap  text-2xl font-extrabold items-center  justify-center">
       <Link  href="/"className="mr-5 hover:text-yellow-700">Home</Link>
       <Link  href={"#About"}className="mr-5 hover:text-yellow-700">About</Link>
       <Link  href={"#skill"}className="mr-5 hover:text-yellow-700">Skills</Link>

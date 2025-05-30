@@ -16,29 +16,31 @@ function Skill() {
       <section className="bg-[#ded8d5] body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h2 className="text-xs text-yellow-950 tracking-widest font-medium title-font mb-1">
+            <h2 className="text-2xl text-yellow-950 tracking-widest font-bold title-font mb-1">
               Skills Set
             </h2>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+            <h1 className="sm:text-4xl text-2xl font-extrabold title-font text-gray-900">
               My Skills
             </h1>
           </div>
 
           {/* Frontend Technologies Section */}
           <div className="mb-10 text-center">
-            <h2 className="text-lg font-semibold text-gray-800">Frontend Technologies</h2>
+            <h2 className="text-3xl font-extrabold text-gray-800">Frontend Technologies</h2>
             <div className="flex flex-wrap -m-4 -mt-4">
-              <SkillCard icon={<AiFillHtml5 />} skill="HTML" level="100%" />
+              <SkillCard icon={<AiFillHtml5 />} skill="HTML" level="90%" />
               <SkillCard icon={<TbFileTypeCss />} skill="CSS" level="95%" />
-              <SkillCard icon={<IoLogoJavascript />} skill="JavaScript" level="90%" />
+              <SkillCard icon={<IoLogoJavascript />} skill="Python" level="90%" />
               <SkillCard icon={<SiTypescript />} skill="TypeScript" level="80%" />
               <SkillCard icon={<RiNextjsLine />} skill="Next.js" level="85%" />
+               <SkillCard icon={<BiAnalyse />} skill="AI Agentic Learner" level="75%" /> {/* ✅ Added Skill */}
+
             </div>
           </div>
 
           {/* Design & Prototyping Section */}
           <div className="mb-10 text-center">
-            <h2 className="text-lg font-semibold text-gray-800">Design & Prototyping</h2>
+            <h2 className="text-3xl font-extrabold text-gray-800">Design & Prototyping</h2>
             <div className="flex flex-wrap -m-4 -mt-4">
               <SkillCard icon={<FaFigma />} skill="Figma" level="90%" />
               <SkillCard icon={<BiAnalyse />} skill="Responsive Design" level="85%" />
@@ -48,18 +50,19 @@ function Skill() {
           </div>
 
           {/* Problem Solving Section */}
-          <div className="mb-10 text-center">
-            <h2 className="text-lg font-semibold text-gray-800">Problem Solving</h2>
-            <div className="flex flex-wrap -m-4 -mt-4">
-              <SkillCard icon={<BiAnalyse />} skill="Analytical Thinking" level="80%" />
-              <SkillCard icon={<MdBugReport />} skill="Debugging" level="85%" />
-              <SkillCard icon={<SiGoogleoptimize  />} skill="code optimization" level="80%" />
-            </div>
-          </div>
+         <div className="mb-10 text-center">
+  <h2 className="text-3xl font-extrabold text-gray-800">Problem Solving</h2>
+  <div className="flex flex-wrap -m-4 -mt-4">
+    <SkillCard icon={<BiAnalyse />} skill="Analytical Thinking" level="80%" />
+    <SkillCard icon={<MdBugReport />} skill="Debugging" level="85%" />
+    <SkillCard icon={<SiGoogleoptimize />} skill="Code Optimization" level="80%" />
+    <SkillCard icon={<BiAnalyse />} skill="Agentic AI Learning" level="75%" /> {/* ✅ NEW SKILL */}
+  </div>
+</div>
 
           {/* Soft Skills Section */}
           <div className="mb-10 text-center">
-            <h2 className="text-lg font-semibold text-gray-800">Soft Skills</h2>
+            <h2 className="text-3xl font-extrabold text-gray-800">Soft Skills</h2>
             <div className="flex flex-wrap -m-4 -mt-4">
               <SkillCard icon={<MdOutlinePeopleAlt />} skill="Teamwork" level="90%" />
               <SkillCard icon={<MdOutlinePeopleAlt />} skill="Communication" level="85%" />

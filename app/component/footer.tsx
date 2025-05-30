@@ -21,13 +21,13 @@ function Footer() {
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <Link target="_blank" href={"https://www.linkedin.com/in/nousheen-atif-7873a28a"} className="text-yellow-950">
-              <AiOutlineLinkedin className='text-2xl hover:text-[#2947f3]' />
+              <AiOutlineLinkedin className='text-4xl hover:text-[#2947f3]' />
             </Link>
             <Link target="_blank" href={"https://github.com/codewithhoney24/codewithhoney24.git"} className="ml-3 text-yellow-950">
-              <AiOutlineGithub className='text-2xl hover:text-[#3bcbec]' />
+              <AiOutlineGithub className='text-4xl hover:text-[#3bcbec]' />
             </Link>
             <Link target="_blank" href={"https://linktr.ee/codewithcoding24"} className="ml-3 text-yellow-950">
-              <SiLinktree   className='text-2xl hover:text-[#50a950]' />
+              <SiLinktree   className='text-4xl hover:text-[#50a950]' />
             </Link>
           </span>
         </div>
