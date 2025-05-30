@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div>
       <section className="body-font bg-[#faede4]">
-        <div className="container mx-auto flex px-2 py-52 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-2 py-40 md:flex-row flex-col items-center">
           {/* Text Section */}
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="text-yellow-950 title-font sm:text-4xl text-4xl mb-4 font-bold lg:ml-8">
@@ -23,7 +23,7 @@ function Hero() {
               />
             </h1>
             <div className="w-[100px] h-[4px]  bg-yellow-950 lg:ml-8" />
-            <p className="lg:ml-8 mb-8 mt-6 md:mt-10 leading-relaxed font-bold  text-xl text-gray-800">
+            <p className="lg:ml-8 mb-8 mt-6 md:mt-10 leading-relaxed font-bold  text-lg text-gray-800">
               As a passionate student at <strong>GIAIC</strong>, I’ve built a strong foundation in <strong>HTML</strong>, <strong>CSS</strong>, <strong>TypeScript</strong>, <strong>Next.js</strong> and  <strong>Python</strong>. I&apos;m also diving into <strong>AI & agentic workflows</strong> to create smart, responsive web applications.
               <br /><br />
               I&apos;m actively available for <strong>freelance projects</strong> and <strong>open to job opportunities</strong> where I can bring innovative solutions, clean code, and a growth mindset to the team.
